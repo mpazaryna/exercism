@@ -3,6 +3,7 @@
 require 'minitest/autorun'
 require_relative 'lasagna'
 
+# class to test lasagna
 class LasagnaTest < Minitest::Test
   def test_expected_minutes_in_oven
     assert_equal 40, Lasagna::EXPECTED_MINUTES_IN_OVEN

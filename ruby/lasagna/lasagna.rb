@@ -1,3 +1,4 @@
+# Class to test recipe for lasagna
 class Lasagna
   EXPECTED_MINUTES_IN_OVEN = 40
   PREPARE_MINUTES_PER_LAYER = 2
@@ -13,5 +14,4 @@ class Lasagna
   def total_time_in_minutes(number_of_layers:, actual_minutes_in_oven:)
     preparation_time_in_minutes(number_of_layers) + actual_minutes_in_oven
   end
-  
 end
